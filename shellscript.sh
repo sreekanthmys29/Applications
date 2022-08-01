@@ -1,4 +1,4 @@
 #!/bin/bash
-REGION=$@
-ZONE=$@
+REGION=$1
+ZONE=$2
 echo "REGION :${REGION}  ZONE : ${ZONE} "
